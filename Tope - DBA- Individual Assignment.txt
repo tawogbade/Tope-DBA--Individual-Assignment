@@ -1,0 +1,16 @@
+			INDIVIDUAL ASSIGNMENT
+
+1. 	select *
+   	from salesLT.customer;
+
+2. 	select firstname, middlename, LastName, EmailAddress, Phone
+	from salesLT.Customer;
+
+3.	select name, productnumb er, color, size, weight, sellstartdate, listprice - standardcost as profit
+	from SalesLT.Product;
+
+4.	select name, productnumber, color, size, weight, sellstartdate, listprice - standardcost as profit, SellEndDate
+	from SalesLT.Product;
+
+5.	select productid, salesorderid, unitprice, unitpricediscount, linetotal
+	from salesLT.salesorderdetail;
